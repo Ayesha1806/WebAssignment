@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .maincontent{
+            /* border: 2px solid red; */
+            height: 400px;
+            width: 500px;
+            border-radius: 5px;
+            background-color: black;
+            /* display: flex; */
+        }
+        .upperbox{
+            /* border: 2px solid red; */
+            height: 10%;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .display{
+            /* border: 2px solid red; */
+            height: 100%;
+            width: 90%; 
+            border-radius: 5px;
+            background-color: rgb(222, 222, 222);
+            box-shadow: inset 4px 4px 3px  rgba(118, 180, 243, 0.502);
+        }
+        .clear{
+            /* border: 2px solid green; */
+            height: 100%;
+            width: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight:bold;
+            background-color: rgba(239, 78, 139, 0.82);
+            border-radius: 5px;
+        }
+        .lowerbox{
+            /* border: 2px solid green; */
+            margin: 5px;
+            margin-left: 20px;
+            margin-right: 20px;
+            height: 70%;
+            display: flex;
+            /* justify-content: flex-start; */
+            flex-direction: column;
+            align-items: center;
+        }
+        .numbers1{
+            /* border: 2px solid green; */
+            margin: 10px;
+            display: flex; 
+            align-items: center;
+            height: 20%;
+            width: 100%;
+             /* justify-content: space-between; */
+        }
+        .numbers2{
+            /* border: 2px solid green; */
+            margin: 10px;
+            height: 20%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;    
+            }
+            .numbers3{
+            /* border: 2px solid green; */
+            margin: 10px;
+            display: flex; 
+            align-items: center;
+            height: 20%;
+            width: 100%;
+             /* justify-content: space-between; */
+        }
+        .numbers4{
+            /* border: 2px solid green; */
+            margin: 10px;
+            display: flex; 
+            align-items: center;
+            height: 20%;
+            width: 100%;
+             /* justify-content: center; */
+        }
+        .num1{
+            /* border: 2px solid green; */
+            width: 30%;
+            height: 80%;
+            border-radius: 5px;
+            margin: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight:bold;
+            background-color: blueviolet;
+        }
+        .equals{
+            /* border: 2px solid green; */
+            width: 30%;
+            height: 80%;
+            border-radius: 5px;
+            margin: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight:bold;
+            background-color: rgba(239, 78, 139, 0.82);
+        }
+        .operatos{
+            /* border: 2px solid green; */
+            width: 12%;
+            height: 80%;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight:bold;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="maincontent">
+        <div class="upperbox">
+            <div class="display"></div>
+            <div class="clear">C</div>
+        </div>
+        <div class="lowerbox">
+            <div class="numbers1">
+                <div class="num1">1</div>
+                <div class="num1">2</div>
+                <div class="num1">3</div>
+                <div class="operatos">/</div>
+            </div>
+            <div class="numbers2">
+                <div class="num1">4</div>
+                <div class="num1">5</div>
+                <div class="num1">6</div>
+                <div class="operatos">-</div>
+            </div>
+                <div class="numbers3">
+                <div class="num1">7</div>
+                <div class="num1">8</div>
+                <div class="num1">9</div>
+                <div class="operatos">+</div>
+            </div>
+                <div class="numbers4">
+                <div class="num1">.</div>
+                <div class="num1">0</div>
+                <div class="equals">=</div>
+                <div class="operatos">*</div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
